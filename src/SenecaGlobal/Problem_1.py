@@ -1,4 +1,3 @@
-
 #reading the input.
 from operator import index
 
@@ -21,9 +20,9 @@ frequency_dictionary = dict()
 
 for integer in integer_list:
     if(integer not in frequency_dictionary):
-        frequency_dictionary[integer] = count_integer(integer) #frequency_dictionary
+        frequency_dictionary[integer] = 1 #count_integer(integer) #frequency_dictionary
     else:
-        frequency_dictionary[integer] = frequency_dictionary.get(integer)
+        frequency_dictionary[integer] = frequency_dictionary.get(integer) + 1
 
 print(frequency_dictionary)
 
