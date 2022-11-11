@@ -24,6 +24,7 @@ public class printNumberNoLoop {
 
         String set = new BitSet() {{set(1,101);}}.toString();
 
+        //System.out.println(set);
         System.out.append(set, 1, set.length());
 
     }
