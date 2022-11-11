@@ -1,7 +1,17 @@
+package Company_questions.keka;
+
 import java.util.Arrays;
 import java.util.Random;
 
-public class keka_problem {
+/*
+* maximum difference between the successive elements in its sorted form.
+* input: 4
+*       [3,6,9,1]
+* output: 3
+* sorted array is [1,3,6,9] maximum difference is (3,6) or (6,9)
+* */
+
+public class MaximumDifference {
 
     public static void main(String[] args)
     {
